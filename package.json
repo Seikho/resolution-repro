@@ -1,0 +1,17 @@
+{
+  "name": "resolution-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "cp -r mod node_modules && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^8.0.32",
+    "typescript": "2.5.3"
+  }
+}
